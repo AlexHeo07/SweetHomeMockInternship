@@ -163,7 +163,7 @@ public class DefaultFurnitureCatalog extends FurnitureCatalog {
     /**
      * The key for the movability of a piece of furniture (mandatory).
      * If the value of this key is <code>true</code>, the piece of furniture
-     * will be considered as a movable piece. 
+     * will be considered as a movable piece.
      */
     MOVABLE("movable"),
     /**
@@ -645,7 +645,7 @@ public class DefaultFurnitureCatalog extends FurnitureCatalog {
           resource, PropertyKey.DOOR_OR_WINDOW_WALL_DISTANCE.getKey(index), 0) / depth;
       Sash [] sashes = getDoorOrWindowSashes(resource, index, width, depth);
       return new CatalogDoorOrWindow(id, name, description, information, tags, creationDate, grade, 
-          icon, planIcon, model, width, depth, height, elevation, dropOnTopElevation, movable, 
+          icon, planIcon, model, width, depth, height, elevation, dropOnTopElevation, movable,
           doorOrWindowCutOutShape, wallThicknessPercentage, wallDistancePercentage, sashes,
           modelRotation, false, creator, resizable, deformable, texturable, price, valueAddedTaxPercentage, currency);
     } else {
